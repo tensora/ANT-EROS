@@ -10,14 +10,18 @@
 Downloading the zip directly is NOT recommended!
 
 Use git clone to download the repo such as:
+```bash
 git clone https://github.com/tensora/ANT-EROS.git
+```
 
 The folder named "01 data" should download automatically. But if not, you can test installing lfs, and clone the folder seprately using the following commands:
+```bash
 git lfs version
 git lfs install
 git clone https://github.com/tensora/ANT-EROS.git
 cd ANT-EROS
 git lfs pull
+```
 
 ## About
 
