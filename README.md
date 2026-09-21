@@ -5,6 +5,20 @@
 **Email:** [pkanerva@kth.se](mailto:pkanerva@kth.se)
 **MATLAB version tested:** MATLAB R2025a
 
+## How to download
+
+Downloading the zip directly is NOT recommended!
+
+Use git clone to download the repo such as:
+git clone https://github.com/tensora/ANT-EROS.git
+
+The folder named "01 data" should download automatically. But if not, you can test installing lfs, and clone the folder seprately using the following commands:
+git lfs version
+git lfs install
+git clone https://github.com/tensora/ANT-EROS.git
+cd ANT-EROS
+git lfs pull
+
 ## About
 
 This repository contains the code for the ANT-EROS GUI used to evaluate, tune, and record the EROS algorithm and its extensions.
