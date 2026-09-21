@@ -1,0 +1,68 @@
+[
+  {
+    "directory": "G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\\codegen\\mex\\EROS_all_double_set_add_clipAny_limit5",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2025a\\extern\\include\" /I \".\" -DMODEL=EROS_all_double_set_add_clipAny_limit5_mex   EROS_all_double_set_add_clipAny_limit5_data.c /Fobuild\\win64\\EROS_all_double_set_add_clipAny_limit5_data.obj",
+    "file": "EROS_all_double_set_add_clipAny_limit5_data.c",
+    "output": "build/win64/EROS_all_double_set_add_clipAny_limit5_data.obj"
+  },
+  {
+    "directory": "G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\\codegen\\mex\\EROS_all_double_set_add_clipAny_limit5",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2025a\\extern\\include\" /I \".\" -DMODEL=EROS_all_double_set_add_clipAny_limit5_mex   rt_nonfinite.c /Fobuild\\win64\\rt_nonfinite.obj",
+    "file": "rt_nonfinite.c",
+    "output": "build/win64/rt_nonfinite.obj"
+  },
+  {
+    "directory": "G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\\codegen\\mex\\EROS_all_double_set_add_clipAny_limit5",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2025a\\extern\\include\" /I \".\" -DMODEL=EROS_all_double_set_add_clipAny_limit5_mex   EROS_all_double_set_add_clipAny_limit5_initialize.c /Fobuild\\win64\\EROS_all_double_set_add_clipAny_limit5_initialize.obj",
+    "file": "EROS_all_double_set_add_clipAny_limit5_initialize.c",
+    "output": "build/win64/EROS_all_double_set_add_clipAny_limit5_initialize.obj"
+  },
+  {
+    "directory": "G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\\codegen\\mex\\EROS_all_double_set_add_clipAny_limit5",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2025a\\extern\\include\" /I \".\" -DMODEL=EROS_all_double_set_add_clipAny_limit5_mex   EROS_all_double_set_add_clipAny_limit5_terminate.c /Fobuild\\win64\\EROS_all_double_set_add_clipAny_limit5_terminate.obj",
+    "file": "EROS_all_double_set_add_clipAny_limit5_terminate.c",
+    "output": "build/win64/EROS_all_double_set_add_clipAny_limit5_terminate.obj"
+  },
+  {
+    "directory": "G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\\codegen\\mex\\EROS_all_double_set_add_clipAny_limit5",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2025a\\extern\\include\" /I \".\" -DMODEL=EROS_all_double_set_add_clipAny_limit5_mex   interface\\_coder_EROS_all_double_set_add_clipAny_limit5_api.c /Fobuild\\win64\\_coder_EROS_all_double_set_add_clipAny_limit5_api.obj",
+    "file": "interface/_coder_EROS_all_double_set_add_clipAny_limit5_api.c",
+    "output": "build/win64/_coder_EROS_all_double_set_add_clipAny_limit5_api.obj"
+  },
+  {
+    "directory": "G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\\codegen\\mex\\EROS_all_double_set_add_clipAny_limit5",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2025a\\extern\\include\" /I \".\" -DMODEL=EROS_all_double_set_add_clipAny_limit5_mex   interface\\_coder_EROS_all_double_set_add_clipAny_limit5_mex.c /Fobuild\\win64\\_coder_EROS_all_double_set_add_clipAny_limit5_mex.obj",
+    "file": "interface/_coder_EROS_all_double_set_add_clipAny_limit5_mex.c",
+    "output": "build/win64/_coder_EROS_all_double_set_add_clipAny_limit5_mex.obj"
+  },
+  {
+    "directory": "G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\\codegen\\mex\\EROS_all_double_set_add_clipAny_limit5",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2025a\\extern\\include\" /I \".\" -DMODEL=EROS_all_double_set_add_clipAny_limit5_mex   EROS_all_double_set_add_clipAny_limit5.c /Fobuild\\win64\\EROS_all_double_set_add_clipAny_limit5.obj",
+    "file": "EROS_all_double_set_add_clipAny_limit5.c",
+    "output": "build/win64/EROS_all_double_set_add_clipAny_limit5.obj"
+  },
+  {
+    "directory": "G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\\codegen\\mex\\EROS_all_double_set_add_clipAny_limit5",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2025a\\extern\\include\" /I \".\" -DMODEL=EROS_all_double_set_add_clipAny_limit5_mex   unsafeSxfun.c /Fobuild\\win64\\unsafeSxfun.obj",
+    "file": "unsafeSxfun.c",
+    "output": "build/win64/unsafeSxfun.obj"
+  },
+  {
+    "directory": "G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\\codegen\\mex\\EROS_all_double_set_add_clipAny_limit5",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2025a\\extern\\include\" /I \".\" -DMODEL=EROS_all_double_set_add_clipAny_limit5_mex   EROS_all_double_set_add_clipAny_limit5_emxutil.c /Fobuild\\win64\\EROS_all_double_set_add_clipAny_limit5_emxutil.obj",
+    "file": "EROS_all_double_set_add_clipAny_limit5_emxutil.c",
+    "output": "build/win64/EROS_all_double_set_add_clipAny_limit5_emxutil.obj"
+  },
+  {
+    "directory": "G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\\codegen\\mex\\EROS_all_double_set_add_clipAny_limit5",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2025a\\extern\\include\" /I \".\" -DMODEL=EROS_all_double_set_add_clipAny_limit5_mex   interface\\_coder_EROS_all_double_set_add_clipAny_limit5_info.c /Fobuild\\win64\\_coder_EROS_all_double_set_add_clipAny_limit5_info.obj",
+    "file": "interface/_coder_EROS_all_double_set_add_clipAny_limit5_info.c",
+    "output": "build/win64/_coder_EROS_all_double_set_add_clipAny_limit5_info.obj"
+  },
+  {
+    "directory": "G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\\codegen\\mex\\EROS_all_double_set_add_clipAny_limit5",
+    "command": "cl /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I \".\" /I \"G:\\KTH\\KTH exjobb 2025 - Local\\EROS GUI\\11 c_code\" /I \".\\interface\" /I \"C:\\Program Files\\MATLAB\\R2025a\\extern\\include\" /I \".\" -DMODEL=EROS_all_double_set_add_clipAny_limit5_mex   \"C:\\Program Files\\MATLAB\\R2025a\\extern\\version\\c_mexapi_version.c\" /Fobuild\\win64\\c_mexapi_version.obj",
+    "file": "C:/Program Files/MATLAB/R2025a/extern/version/c_mexapi_version.c",
+    "output": "build/win64/c_mexapi_version.obj"
+  }
+]

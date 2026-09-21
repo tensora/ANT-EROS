@@ -1,0 +1,56 @@
+# CompilerName=msvc170
+# Mode=optim
+ninja_required_version = 1.3
+
+# Basic folders
+root = .
+builddir = $root\build\win64
+matlabdir = C:\Program Files\MATLAB\R2025a
+startdir = G:\KTH\KTH exjobb 2025 - Local\EROS GUI\11 c_code
+
+# Toolchain information
+cc = cl
+cxx = cl
+linker = link
+linkerxx = link
+
+cflags =  /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I "$root" /I "$startdir" /I "$root\interface" /I "$matlabdir\extern\include" /I "." -DMODEL=EROS_all_double_set_add_clipAny_limit5_mex  
+
+cxxflags =  /c /Zc:__cplusplus /Zp8 /GR /W3 /EHs /nologo /MD /D_CRT_SECURE_NO_DEPRECATE /D_SCL_SECURE_NO_DEPRECATE /D_SECURE_SCL=0   /DMATLAB_MEX_FILE  /DMATLAB_MEX_FILE /O2 /Oy- /DNDEBUG /fp:strict /utf-8 /I "$root" /I "$startdir" /I "$root\interface" /I "$matlabdir\extern\include" /I "." -DMODEL=EROS_all_double_set_add_clipAny_limit5_mex  
+
+ldflags =  /nologo    /DLL /LIBPATH:"$matlabdir\extern\lib\win64\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  /out:"EROS_all_double_set_add_clipAny_limit5_mex.mexw64" libemlrt.lib libcovrt.lib libut.lib libmwmathutil.lib  /export:mexFunction /export:mexfilerequiredapiversion /export:emlrtMexFcnProperties /export:EROS_all_double_set_add_clipAny_limit5 /export:EROS_all_double_set_add_clipAny_limit5_initialize /export:EROS_all_double_set_add_clipAny_limit5_terminate /export:EROS_all_double_set_add_clipAny_limit5_atexit /export:emxFree_real_T /export:emxFree_uint16_T /export:emxFree_char_T /export:emxInit_real_T /export:emxInit_uint16_T /export:emxInit_char_T /export:emxEnsureCapacity_real_T /export:emxEnsureCapacity_uint16_T /export:emxEnsureCapacity_char_T
+
+ldxxflags =  /nologo    /DLL /LIBPATH:"$matlabdir\extern\lib\win64\microsoft" libmx.lib libmex.lib libmat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib libMatlabDataArray.lib libMatlabEngine.lib  /out:"EROS_all_double_set_add_clipAny_limit5_mex.mexw64" libemlrt.lib libcovrt.lib libut.lib libmwmathutil.lib  /export:mexFunction /export:mexfilerequiredapiversion /export:emlrtMexFcnProperties /export:EROS_all_double_set_add_clipAny_limit5 /export:EROS_all_double_set_add_clipAny_limit5_initialize /export:EROS_all_double_set_add_clipAny_limit5_terminate /export:EROS_all_double_set_add_clipAny_limit5_atexit /export:emxFree_real_T /export:emxFree_uint16_T /export:emxFree_char_T /export:emxInit_real_T /export:emxInit_uint16_T /export:emxInit_char_T /export:emxEnsureCapacity_real_T /export:emxEnsureCapacity_uint16_T /export:emxEnsureCapacity_char_T
+
+linkobjs = 
+
+# Build Rules
+rule cc
+    command = $cc $cflags $in /Fo$out
+
+rule cxx
+    command = $cxx $cxxflags $in /Fo$out
+
+rule link
+    command = $linker @$out.rsp $linkobjs $ldflags
+    rspfile = $out.rsp
+    rspfile_content = $in
+
+rule linkxx
+    command = $linkerxx $in $linkobjs $ldxxflags
+
+# Build
+build $builddir\EROS_all_double_set_add_clipAny_limit5_data.obj : cc $root\EROS_all_double_set_add_clipAny_limit5_data.c
+build $builddir\rt_nonfinite.obj : cc $root\rt_nonfinite.c
+build $builddir\EROS_all_double_set_add_clipAny_limit5_initialize.obj : cc $root\EROS_all_double_set_add_clipAny_limit5_initialize.c
+build $builddir\EROS_all_double_set_add_clipAny_limit5_terminate.obj : cc $root\EROS_all_double_set_add_clipAny_limit5_terminate.c
+build $builddir\_coder_EROS_all_double_set_add_clipAny_limit5_api.obj : cc $root\interface\_coder_EROS_all_double_set_add_clipAny_limit5_api.c
+build $builddir\_coder_EROS_all_double_set_add_clipAny_limit5_mex.obj : cc $root\interface\_coder_EROS_all_double_set_add_clipAny_limit5_mex.c
+build $builddir\EROS_all_double_set_add_clipAny_limit5.obj : cc $root\EROS_all_double_set_add_clipAny_limit5.c
+build $builddir\unsafeSxfun.obj : cc $root\unsafeSxfun.c
+build $builddir\EROS_all_double_set_add_clipAny_limit5_emxutil.obj : cc $root\EROS_all_double_set_add_clipAny_limit5_emxutil.c
+build $builddir\_coder_EROS_all_double_set_add_clipAny_limit5_info.obj : cc $root\interface\_coder_EROS_all_double_set_add_clipAny_limit5_info.c
+build $builddir\c_mexapi_version.obj : cc $matlabdir\extern\version\c_mexapi_version.c
+
+# Link
+build $root\EROS_all_double_set_add_clipAny_limit5_mex.mexw64 : link $builddir\EROS_all_double_set_add_clipAny_limit5_data.obj $builddir\rt_nonfinite.obj $builddir\EROS_all_double_set_add_clipAny_limit5_initialize.obj $builddir\EROS_all_double_set_add_clipAny_limit5_terminate.obj $builddir\_coder_EROS_all_double_set_add_clipAny_limit5_api.obj $builddir\_coder_EROS_all_double_set_add_clipAny_limit5_mex.obj $builddir\EROS_all_double_set_add_clipAny_limit5.obj $builddir\unsafeSxfun.obj $builddir\EROS_all_double_set_add_clipAny_limit5_emxutil.obj $builddir\_coder_EROS_all_double_set_add_clipAny_limit5_info.obj $builddir\c_mexapi_version.obj 
